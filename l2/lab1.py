@@ -126,4 +126,4 @@ print('\n\n')
 for i in range(10):
     img, label = test_dataset[i]
     print('Label: ', label,', Predicated: ', predict_image(img, model))
-    print()
+    
